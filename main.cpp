@@ -3,8 +3,6 @@ using namespace std;
 
 int main(){
     cout << "git is cool!" << endl;
-    system("pause");
+    // system("pause");
     return 0;
 }
-
-// test
