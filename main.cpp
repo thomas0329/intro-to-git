@@ -1,8 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(){
-    cout << "git is cool!" << endl;
-    // system("pause");
+    string name = "";
+    cout << "please enter your name?" << endl;
+    cin >> name ;
+    
+    cout << "hello " << name << endl;
+    system("pause");
     return 0;
 }
